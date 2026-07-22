@@ -71,6 +71,3 @@ This project was verified through **physical hardware implementation** on a brea
   - The same card scanned again correctly triggers `Already Present` instead of a duplicate welcome message.
   - An unregistered card correctly triggers `Access Denied`.
 - The `compare()` function was verified to correctly reject any ID differing in even a single character across its 12-character length.
-## Files
-
-- `rfid_attendance.c` — Embedded C source for the 8051 (Keil C51 syntax), interfacing the RFID reader and LCD
